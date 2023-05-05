@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import open-cv
 from PIL import Image, ImageEnhance
 import numpy as np
 import os
@@ -11,10 +10,13 @@ from streamlit_embedcode import github_gist
 import urllib.request
 import urllib
 import moviepy.editor as moviepy
-import cv2
 import numpy as np
 import time
 import sys
+import importlib
+
+def my_function():
+    cv2 = importlib.import_module('cv2')
 
 def object_detection_video():
     #object_detection_video.has_beenCalled = True
