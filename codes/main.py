@@ -13,10 +13,7 @@ import moviepy.editor as moviepy
 import numpy as np
 import time
 import sys
-import importlib
-
-def my_function():
-    cv2 = importlib.import_module('cv2')
+import cv2
 
 def object_detection_video():
     #object_detection_video.has_beenCalled = True
