@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import cv2
+import open-cv
 from PIL import Image, ImageEnhance
 import numpy as np
 import os
